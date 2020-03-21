@@ -6,7 +6,7 @@ namespace SoftwareDesignPattern
 {
     public class ProductA : BaseProduct
     {
-        protected override void Show()
+        public override void Show()
         {
             Console.WriteLine("我是产品A");
         }
@@ -14,7 +14,7 @@ namespace SoftwareDesignPattern
 
     public class ProductB : BaseProduct
     {
-        protected override void Show()
+        public override void Show()
         {
             Console.WriteLine("我是产品B");
         }

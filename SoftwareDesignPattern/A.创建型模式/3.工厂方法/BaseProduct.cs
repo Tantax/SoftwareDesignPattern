@@ -6,7 +6,7 @@ namespace SoftwareDesignPattern
 {
     public abstract class BaseProduct
     {
-        protected virtual void Show()
+        public virtual void Show()
         {
             Console.WriteLine("我是抽象类");
         }
