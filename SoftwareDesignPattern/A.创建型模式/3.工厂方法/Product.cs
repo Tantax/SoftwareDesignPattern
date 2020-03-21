@@ -2,21 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwareDesignPattern
+namespace SoftwareDesignPattern.FactoryMethod
 {
-    public class ProductA : BaseProduct
+    public interface IProduct
     {
-        public override void Show()
-        {
-            Console.WriteLine("我是产品A");
-        }
+        void Show();
     }
 
-    public class ProductB : BaseProduct
-    {
-        public override void Show()
-        {
-            Console.WriteLine("我是产品B");
-        }
-    }
 }

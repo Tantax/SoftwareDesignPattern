@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwareDesignPattern
+namespace SoftwareDesignPattern.FactoryMethod
 {
     public interface IFactory
     {
-        BaseProduct GetProduct();
+        IProduct GetProduct();
     }
 }

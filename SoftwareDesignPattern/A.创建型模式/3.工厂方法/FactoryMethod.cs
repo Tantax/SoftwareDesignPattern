@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SoftwareDesignPattern
+namespace SoftwareDesignPattern.FactoryMethod
 {
     public class FactoryMethodA : IFactory
     {
-        public BaseProduct GetProduct()
+        public IProduct GetProduct()
         {
             return new ProductA();
         }
@@ -14,7 +14,7 @@ namespace SoftwareDesignPattern
 
     public class FactoryMethodB : IFactory
     {
-        public BaseProduct GetProduct()
+        public IProduct GetProduct()
         {
             return new ProductB();
         }
