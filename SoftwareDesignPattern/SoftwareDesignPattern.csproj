@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="A.创建型模式\4.抽象工厂\" />
     <Folder Include="A.创建型模式\5.建造者\" />
     <Folder Include="B.结构型模式\1.代理\" />
     <Folder Include="B.结构型模式\2.适配器\" />
