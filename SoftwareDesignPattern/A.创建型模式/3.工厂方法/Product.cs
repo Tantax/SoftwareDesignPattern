@@ -4,9 +4,19 @@ using System.Text;
 
 namespace SoftwareDesignPattern.FactoryMethod
 {
-    public interface IProduct
+    public class ProductA : IProduct
     {
-        void Show();
+        public void Show()
+        {
+            Console.WriteLine("我是产品A");
+        }
     }
 
+    public class ProductB : IProduct
+    {
+        public void Show()
+        {
+            Console.WriteLine("我是产品B");
+        }
+    }
 }

@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="B.结构型模式\2.适配器\" />
     <Folder Include="B.结构型模式\3.桥接\" />
     <Folder Include="B.结构型模式\4.装饰\" />
     <Folder Include="B.结构型模式\5.外观\" />
