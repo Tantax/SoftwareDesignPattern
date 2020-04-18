@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="C.行为型模式\06.观察者\" />
     <Folder Include="C.行为型模式\07.中介者\" />
     <Folder Include="C.行为型模式\08.迭代器\" />
     <Folder Include="C.行为型模式\09.访问者\" />
