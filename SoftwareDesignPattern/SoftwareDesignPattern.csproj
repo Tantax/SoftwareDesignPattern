@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="C.行为型模式\03.命令\" />
     <Folder Include="C.行为型模式\04.职责链\" />
     <Folder Include="C.行为型模式\05.状态\" />
     <Folder Include="C.行为型模式\06.观察者\" />
